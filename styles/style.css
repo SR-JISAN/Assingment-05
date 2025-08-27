@@ -1,0 +1,91 @@
+/* ----------Desktop----style----------- */
+*{ 
+    max-width: 1920px;
+    margin: 0 auto;
+}
+.font-style{
+     font-family: "Hind Madurai", sans-serif;
+     font-style: normal;
+}
+.font-style2{
+    font-family: "Inter", sans-serif;
+}
+
+/* -------------------navBar----------------- */
+.nav-container{
+    margin: auto;
+    max-width: 1880px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.nav-child1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5px;
+}
+.nav-logo{
+    width: 3rem;
+}
+.nav-logo>img{
+    width: 100%;
+}
+.nave-title{
+    color: rgba(0, 103, 71, 1);
+    font-weight: 900;
+    font-size: 1rem;
+}
+
+.nav-child2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+.nav-heart, .nav-coin{
+    background-color: rgba(65, 255, 107, 0.1);
+    padding: 10px 30px;
+}
+.nav-copy{
+    background-color: rgba(0, 166, 62, 1);
+    padding: 10px 30px;
+}
+.copy-title{
+    font-size: 1rem;
+    color: rgba(255, 255, 255, 1);
+}
+.heart-image, .coin-image{
+    width: 1.4rem;
+    display: flex;
+    align-items: center;
+}
+.heart-image>img , .coin-image>img{
+    width: 100%;
+}
+.nav-coin,.nav-heart,.nav-copy{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 50px;
+}
+#heart, #coin{
+    font-weight: 900;
+    font-size:1rem ;
+}
+#copy{
+    color: rgba(255, 255, 255, 1) ;
+    font-weight: 600;
+     font-size:1rem ;
+}
+
+
+
+
+
+
+
+/* -----------mobile----style--------- */
