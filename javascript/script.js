@@ -4,7 +4,7 @@ let count = 0;
  for(const btn of copyBtns){
     btn.addEventListener('click', function(){
         navigator.clipboard.writeText(btn.dataset.value)
-        alert('Number Copied to clipboard',)
+        alert('☺️ Number Copied to clipboard',)
         count++
         copyCount.innerText = count;
     })
@@ -29,7 +29,7 @@ let count2 = 0;
        const coin =parseInt(document.getElementById('coin').innerText) 
         const reduce = coin - 20;
         if(coin<=0){
-          alert('You Have Zero Coin');
+          alert('😨 You Have Zero Coin');
           document.getElementById('coin').innerText = 0
           return;
        }
