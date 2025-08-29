@@ -302,11 +302,15 @@
 
 /* -----------history---- */
 .history{
+    margin: auto;
     width: 90%;
 }
 }
 .history-heading{
     margin-bottom: 20px;
+}
+.history-container{
+    width: 90%;
 }
 
 /* tablet------------------- */
@@ -319,6 +323,10 @@
     flex-direction: column-reverse;
 }
 .history{
+    margin: auto;
+    width: 90%;
+}
+.history-container{
     width: 90%;
 }
 }
