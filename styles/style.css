@@ -278,6 +278,7 @@
         margin: auto;
     }
     .nav-child2{
+        margin-top: 10px;
         width: 98%;
         text-align: center;
     }
@@ -304,6 +305,9 @@
     width: 90%;
 }
 }
+.history-heading{
+    margin-bottom: 20px;
+}
 
 /* tablet------------------- */
 @media screen and (min-width:576px)and (max-width:768px) {
@@ -315,6 +319,6 @@
     flex-direction: column-reverse;
 }
 .history{
-    width: 100%;
+    width: 90%;
 }
 }
