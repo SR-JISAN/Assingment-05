@@ -180,7 +180,7 @@
     align-items: center;
 }
 
-#copy-btn{
+.copy-btn{
     display: flex;
     width: 100%;
     justify-content: center;
@@ -192,14 +192,14 @@
     border-radius: 8px;
     border: 1px solid rgba(212, 214, 213, 1);
 }
-#call-btn:hover{
+.call-btn:hover{
     background-color: rgba(121, 120, 120, 0.66);
     box-shadow: 8px 10px 8px rgb(225, 225, 225);
 }
-#call-btn:active{
+.call-btn:active{
     border: 1px solid white;
 }
-#call-btn{
+.call-btn{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -212,12 +212,12 @@
     border-radius: 8px;
     border: 0;
 }
-#copy-btn:hover{
+.copy-btn:hover{
     background-color: rgba(121, 120, 120, 0.66);
     color: white;
     box-shadow: 8px 10px 8px rgb(225, 225, 225);
 }
-#copy-btn:active{
+.copy-btn:active{
     border: 1px solid rgba(121, 120, 120, 0.66);
 }
 
